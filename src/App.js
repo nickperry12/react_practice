@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="course-goals">
       <h2>Course Goals</h2>
-      <GoalList />
+      <GoalList goals={courseGoals}/>
     </div>
   );
 };
